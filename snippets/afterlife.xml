@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="afterlife"
+           fetch="https://github.com/AfterLifePrjkt13/"
+           revision="13" />
+
+  <project path="device/afterlife/sepolicy" name="device_afterlife_sepolicy" remote="afterlife" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="afterlife" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="afterlife" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="afterlife" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="afterlife" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr" remote="afterlife" revision="13legacy-um" />
+  <project path="external/colorkt" name="external_colorkt" remote="afterlife" />
+  <project path="external/dwarves" name="external_dwarves" remote="afterlife" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="afterlife" />
+  <project path="external/themelib" name="external_themelib" remote="afterlife" />
+  <project path="hardware/afterlife/interfaces" name="hardware_afterlife_interfaces" remote="afterlife"  />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="afterlife" />
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="afterlife" />
+  <project path="hardware/motorola" name="hardware_motorola" remote="afterlife" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="afterlife" />
+  <project path="packages/apps/AfterLab" name="packages_apps_AfterLab" remote="afterlife" />
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="afterlife" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="afterlife" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="afterlife" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="afterlife" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="afterlife" />
+  <project path="packages/apps/NeverLandStub" name="packages_apps_NeverLandStub" remote="afterlife" />
+  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="afterlife" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="afterlife" />
+  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="afterlife" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="afterlife" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="afterlife" />
+  <project path="system/qcom" name="system_qcom" remote="afterlife" />
+  <project path="vendor/afterlife" name="vendor_afterlife" remote="afterlife" />
+  <project path="vendor/gms" name="OldCrocs/vendor_gms" remote="gitlab" revision="13" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="afterlife" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="afterlife" />
+  <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="afterlife" />
+  <project path="vendor/signed" name="vendor_signed" remote="afterlife" />
+  <project path="vendor/support" name="vendor_support" remote="afterlife" />
+</manifest>
