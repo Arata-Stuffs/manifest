@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-13.0.0_r60" />
+           revision="refs/tags/android-13.0.0_r67" />
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS/"
            revision="arrow-13.1" />
@@ -22,7 +22,7 @@
            remote="github"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r60" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r67" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="AfterLifePrjkt13/build" groups="pdk">
