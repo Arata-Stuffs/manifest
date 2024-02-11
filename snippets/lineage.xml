@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- additional repos -->
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage"/>
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
@@ -19,6 +19,7 @@
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="lineage" />
 
   <!-- External Repo -->
+  <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
 
   <!-- Hardware Repo -->
