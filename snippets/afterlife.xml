@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="afterlife"
-           fetch="https://github.com/AfterLifePrjkt13/"
+           fetch="https://github.com/AfterLifeProject/"
            revision="13" />
 
   <project path="device/afterlife/sepolicy" name="device_afterlife_sepolicy" remote="afterlife" />
