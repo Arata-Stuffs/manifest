@@ -1,5 +1,5 @@
-![banner](https://gitlab.com/AfterLife-Rosy/manifest/-/raw/13/AfterLife.jpg)
-# AfterLife Project
+![banner](https://raw.githubusercontent.com/AfterlifeOS/vendor_AfterUI/14/banner/manifest.jpg)
+# AfterlifeOS
 
 ## Getting Started ##
 ---------------
@@ -13,7 +13,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, use command:
 
 ```bash
-repo init --depth=1 --no-repo-verify -u https://github.com/AfterLifePrjkt13/afterlife_manifest.git -b 13 -g default,-mips,-darwin,-notdefault
+repo init --depth=1 -u https://github.com/AfterlifeOS/manifest.git -b 14 --git-lfs
 ```
 
 ## Then sync up: ##
@@ -26,8 +26,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 ```bash
 . build/envsetup.sh
-lunch afterlife_$devicecodename-userdebug
-m afterlife -j$(nproc --all)
+goafterlife <device-codename>
 ```
 
 -----------------------------------------------------------------------------
