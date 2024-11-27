@@ -23,6 +23,7 @@
   <project path="vendor/dolby/afterlife" name="AfterlifeOS/vendor_dolby_afterlife" />
   <project path="vendor/gms" name="AfterlifeOS/vendor_gms" remote="gitea" clone-depth="1" revision="14" />
   <project path="vendor/support" name="AfterlifeOS/vendor_support" />
+  <project path="vendor/prebuilts/LawnIcons" name="AfterlifeOS/vendor_prebuilts_LawnIcons" />
 
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="AfterlifeOS/device_qcom_sepolicy" groups="qcom,qssi" />
