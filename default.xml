@@ -42,7 +42,7 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
-  <project path="build/release" name="AfterlifeOS/build_release" groups="pdk,tradefed" />
+  <project path="build/release" name="AfterlifeOS-Labs/build_release" groups="pdk,tradefed" revision="14-asb_202412" />
   <project path="build/soong" name="AfterlifeOS-Labs/build_soong" groups="pdk,tradefed" revision="7.4">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -808,7 +808,7 @@
   <project path="external/sg3_utils" name="platform/external/sg3_utils" groups="pdk" remote="aosp" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" remote="aosp" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" />
-  <project path="external/skia" name="AfterlifeOS/external_skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="AfterlifeOS-Labs/external_skia" groups="pdk,qcom_msm8x26" revision="14-asb_202412" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" remote="aosp" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" remote="aosp" />
@@ -875,7 +875,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="AfterlifeOS/frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="AfterlifeOS-Labs/afterlife_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="7.4" />
+  <project path="frameworks/base" name="AfterlifeOS-Labs/frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="14-asb_202412" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -1039,7 +1039,7 @@
   <project path="packages/apps/DeskClock" name="AfterlifeOS/packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" remote="aosp" />
   <project path="packages/apps/Dialer" name="AfterlifeOS/packages_apps_Dialer" groups="pdk-fs" />
-  <project path="packages/apps/DocumentsUI" name="AfterlifeOS/packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/DocumentsUI" name="AfterlifeOS-Labs/packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" revision="14-asb_202412" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="aosp" />
@@ -1083,7 +1083,7 @@
   <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="aosp" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" remote="aosp" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="packages/modules/Bluetooth" name="AfterlifeOS/packages_modules_Bluetooth" groups="pdk" />
+  <project path="packages/modules/Bluetooth" name="AfterlifeOS-Labs/packages_modules_Bluetooth" groups="pdk" revision="14-asb_202412" />
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" remote="aosp" />
   <project path="packages/modules/common" name="AfterlifeOS/packages_modules_common" groups="pdk-cw-fs,pdk-fs" />
@@ -1106,7 +1106,7 @@
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/Permission" name="AfterlifeOS/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Permission" name="AfterlifeOS-Labs/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="14-asb_202412" />
   <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" remote="aosp" />
   <project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
