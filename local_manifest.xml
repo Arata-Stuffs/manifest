@@ -15,26 +15,34 @@
         <remote name="hub"
         sync-c="true"
         sync-j="4"
-        fetch="https://github.com" />
+        fetch="https://github.com"
+        revision="fifteen" />
 
+        <remote name="ros"
+        sync-c="true"
+        sync-j="4"
+        fetch="https://github.com/RisingTechOSS-devices" />
+
+        <!--
         <remote name="gitlabs"
         sync-c="true"
         sync-j="4"
         fetch="https://gitlab.com" />
+        -->
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="arata-hub" revision="afl" />
-        <project path="vendor/xiaomi/surya" name="android_vendor_xiaomi_surya" remote="arata-hub" revision="qpr3" />
-        <project path="kernel/xiaomi/surya" name="HinohArata/anonymous_kerrnel" remote="hub" revision="4.14-rom" />
-        <project path="device/xiaomi/surya/parts" name="HinohArata/parts" remote="hub" revision="qpr3" />
+        <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="ros" />
+        <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="ros" />
+        <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="ros" />
+        <project path="device/xiaomi/surya/parts" name="temporary-xp" remote="arata-labs" revision="xp" />
         <project path="firmware/xiaomi/surya" name="firmware_xiaomi_surya" remote="arata-labs" revision="new" />
 
         <!-- MiuiCamera -->
-        <project path="device/xiaomi/surya-miuicamera" name="HinohArata/device_xiaomi_surya-miuicamera" remote="hub" revision="4.7" />
-        <project path="vendor/xiaomi/surya-miuicamera" name="HinohArata/vendor_xiaomi_surya-miuicamera" remote="hub" revision="4.7" />
+        <project path="device/xiaomi/surya-miuicamera" name="temporary-d1" remote="arata-labs" />
+        <project path="vendor/xiaomi/surya-miuicamera" name="temporary-v1" remote="arata-labs" />
 
         <!-- Keys -->
-        <project path="vendor/private-keys/keys" name="HinohArata/keys" remote="hub" revision="full" />
+        <project path="vendor/private-keys/keys" name="temporary-k" remote="hub" revision="arata-labs" />
 
         <!-- additional -->
         <project path="vendor/prebuilts/GalleryGO" name="vendor_prebuilts_GalleryGO" remote="arata-hub" revision="main" />
