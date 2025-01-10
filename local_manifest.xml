@@ -15,13 +15,13 @@
         <remote name="hub"
         sync-c="true"
         sync-j="4"
-        fetch="https://github.com"
-        revision="fifteen" />
+        fetch="https://github.com" />
 
         <remote name="ros"
         sync-c="true"
         sync-j="4"
-        fetch="https://github.com/RisingTechOSS-devices" />
+        fetch="https://github.com/RisingTechOSS-devices"
+        revision="fifteen" />
 
         <!--
         <remote name="gitlabs"
@@ -38,11 +38,11 @@
         <project path="firmware/xiaomi/surya" name="firmware_xiaomi_surya" remote="arata-labs" revision="new" />
 
         <!-- MiuiCamera -->
-        <project path="device/xiaomi/surya-miuicamera" name="temporary-d1" remote="arata-labs" />
-        <project path="vendor/xiaomi/surya-miuicamera" name="temporary-v1" remote="arata-labs" />
+        <project path="device/xiaomi/surya-miuicamera" name="temporary-d1" remote="arata-labs" revision="camd" />
+        <project path="vendor/xiaomi/surya-miuicamera" name="temporary-v1" remote="arata-labs" revision="camv" />
 
         <!-- Keys -->
-        <project path="vendor/private-keys/keys" name="temporary-k" remote="hub" revision="arata-labs" />
+        <project path="vendor/private-keys/keys" name="temporary-k" remote="arata-labs" revision="lock" />
 
         <!-- additional -->
         <project path="vendor/prebuilts/GalleryGO" name="vendor_prebuilts_GalleryGO" remote="arata-hub" revision="main" />
