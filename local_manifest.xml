@@ -31,7 +31,7 @@
         -->
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="ros" />
+        <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="arata-hub" revision="fifteen-ros" />
         <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="ros" />
         <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="ros" />
         <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="hub" revision="15.0" />
